@@ -68,7 +68,7 @@ repositories:
     url: https://github.com/tier4/velodyne_vls.git
     version: tier4/universe
   # sensor_kit
-  sensor_kit/sample_sensor_kit_launch:
+  sensor_kit/logiee_sensor_kit_launch:
     type: git
     url: https://github.com/T4-FY23-AW-Training-Team1/logiee_sensor_kit_launch.git
     version: main
@@ -77,7 +77,7 @@ repositories:
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
     version: main
   # vehicle
-  vehicle/sample_vehicle_launch:
+  vehicle/logiee_vehicle_launch:
     type: git
     url: https://github.com/T4-FY23-AW-Training-Team1/logiee_vehicle_launch.git
     version: main
