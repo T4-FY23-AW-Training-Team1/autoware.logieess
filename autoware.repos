@@ -3,57 +3,57 @@ repositories:
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
-    version: main
+    version: 75e63132ee1f1f1303ba2abd735f5415f75d1cc5
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-    version: main
+    version: cf310bd038673b6cbef3ae3b61dfe607212de419
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: main
+    version: 7455ebc5364d8c57f364227ef0dc100aaee48409
   core/autoware.core:
     type: git
     url: https://github.com/autowarefoundation/autoware.core.git
-    version: main
+    version: 99891401473b5740e640f5a0cc0412c0984b8e0b
   core/external/autoware_auto_msgs: # TODO(mfc): Remove when autoware_msgs is merged
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
-    version: tier4/main
+    version: f6642370c6f4f42a5dc0b6c1fc4a21396d4dc34c
   # universe
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
-    version: main
+    version: dbf98762ec0ec48b7cb6f44de0d89355808a897f
   universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
-    version: tier4/universe
+    version: 852c76520b53683d688dda8183ed3fa8c1eca6ca
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: tier4/universe
+    version: f0688c19719a4b0d4e17e72e3034628d3d5ccb40
   universe/external/morai_msgs:
     type: git
     url: https://github.com/MORAI-Autonomous/MORAI-ROS2_morai_msgs.git
-    version: main
+    version: 04f0a0b6a069fef62e0236189ce23d60abfe97f7
   universe/external/muSSP:
     type: git
     url: https://github.com/tier4/muSSP.git
-    version: tier4/main
+    version: c79e98fd5e658f4f90c06d93472faa977bc873b9
   universe/external/ndt_omp:
     type: git
     url: https://github.com/tier4/ndt_omp.git
-    version: tier4/main
+    version: eab36ace79c0d5b12b4eba5b900ea6ce665e654f
   universe/external/pointcloud_to_laserscan:
     type: git
     url: https://github.com/tier4/pointcloud_to_laserscan.git
-    version: tier4/main
+    version: 948a4fca35dcb03c6c8fbfa610a686f7c919fe0b
   # launcher
   launcher/autoware_launch:
     type: git
     url: https://github.com/T4-FY23-AW-Training-Team1/autoware_launch.logieess
-    version: main
+    version: fbf9607a339408e0cf39bc03f3ad77ea0557247f
   # sensor_component
   sensor_component/external/sensor_component_description:
     type: git
