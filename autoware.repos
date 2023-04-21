@@ -1,9 +1,8 @@
 repositories:
-  # core
-  core/autoware_msgs:
+  core/autoware.core:
     type: git
-    url: https://github.com/autowarefoundation/autoware_msgs.git
-    version: 75e63132ee1f1f1303ba2abd735f5415f75d1cc5
+    url: https://github.com/autowarefoundation/autoware.core.git
+    version: 99891401473b5740e640f5a0cc0412c0984b8e0b
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
@@ -12,27 +11,46 @@ repositories:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
     version: 7455ebc5364d8c57f364227ef0dc100aaee48409
-  core/autoware.core:
+  core/autoware_msgs:
     type: git
-    url: https://github.com/autowarefoundation/autoware.core.git
-    version: 99891401473b5740e640f5a0cc0412c0984b8e0b
-  core/external/autoware_auto_msgs: # TODO(mfc): Remove when autoware_msgs is merged
+    url: https://github.com/autowarefoundation/autoware_msgs.git
+    version: 75e63132ee1f1f1303ba2abd735f5415f75d1cc5
+  core/external/autoware_auto_msgs:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
     version: f6642370c6f4f42a5dc0b6c1fc4a21396d4dc34c
-  # universe
+  launcher/autoware_launch:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_launch.git
+    version: fbf9607a339408e0cf39bc03f3ad77ea0557247f
+  param/autoware_individual_params:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_individual_params.git
+    version: 09082b6cbb99a840c53878a190616d35a40b569f
+  sensor_component/external/sensor_component_description:
+    type: git
+    url: https://github.com/tier4/sensor_component_description.git
+    version: a6a628186b124bc1af73c4f48a6dcd4b441391d3
+  sensor_component/external/tamagawa_imu_driver:
+    type: git
+    url: https://github.com/tier4/tamagawa_imu_driver.git
+    version: de4bf6be79aa2968cf2f62e0ebe1ff8a5797e6ad
+  sensor_component/external/velodyne_vls:
+    type: git
+    url: https://github.com/tier4/velodyne_vls.git
+    version: 55dffdf3b3ef889e149977dc6ab1da124b5176c9
+  sensor_kit/external/awsim_sensor_kit_launch:
+    type: git
+    url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
+    version: a1f5993407ffeb4abcf97a49cd1b4034768d97b4
+  sensor_kit/logiee_sensor_kit_launch:
+    type: git
+    url: https://github.com/T4-FY23-AW-Training-Team1/logiee_sensor_kit_launch.git
+    version: a4c4fbeeff9082e0cea8b63e1c4b11fcec200db7
   universe/autoware.universe:
     type: git
     url: https://github.com/autowarefoundation/autoware.universe.git
     version: dbf98762ec0ec48b7cb6f44de0d89355808a897f
-  universe/external/tier4_ad_api_adaptor: # TODO(TIER IV): Improve design/code and transfer to AWF
-    type: git
-    url: https://github.com/tier4/tier4_ad_api_adaptor.git
-    version: 852c76520b53683d688dda8183ed3fa8c1eca6ca
-  universe/external/tier4_autoware_msgs:
-    type: git
-    url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: f0688c19719a4b0d4e17e72e3034628d3d5ccb40
   universe/external/morai_msgs:
     type: git
     url: https://github.com/MORAI-Autonomous/MORAI-ROS2_morai_msgs.git
@@ -49,48 +67,23 @@ repositories:
     type: git
     url: https://github.com/tier4/pointcloud_to_laserscan.git
     version: 948a4fca35dcb03c6c8fbfa610a686f7c919fe0b
-  # launcher
-  launcher/autoware_launch:
+  universe/external/tier4_ad_api_adaptor:
     type: git
-    url: https://github.com/T4-FY23-AW-Training-Team1/autoware_launch.logieess
-    version: fbf9607a339408e0cf39bc03f3ad77ea0557247f
-  # sensor_component
-  sensor_component/external/sensor_component_description:
+    url: https://github.com/tier4/tier4_ad_api_adaptor.git
+    version: 852c76520b53683d688dda8183ed3fa8c1eca6ca
+  universe/external/tier4_autoware_msgs:
     type: git
-    url: https://github.com/tier4/sensor_component_description.git
-    version: main
-  sensor_component/external/tamagawa_imu_driver:
-    type: git
-    url: https://github.com/tier4/tamagawa_imu_driver.git
-    version: ros2
-  sensor_component/external/velodyne_vls:
-    type: git
-    url: https://github.com/tier4/velodyne_vls.git
-    version: tier4/universe
-  # sensor_kit
-  sensor_kit/logiee_sensor_kit_launch:
-    type: git
-    url: https://github.com/T4-FY23-AW-Training-Team1/logiee_sensor_kit_launch.git
-    version: main
-  sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
-    type: git
-    url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
-    version: main
-  # vehicle
-  vehicle/logiee_vehicle_launch:
-    type: git
-    url: https://github.com/T4-FY23-AW-Training-Team1/logiee_vehicle_launch.git
-    version: main
+    url: https://github.com/tier4/tier4_autoware_msgs.git
+    version: f0688c19719a4b0d4e17e72e3034628d3d5ccb40
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
-    version: main
+    version: e2cd8b70611b2502a78facd597c8e2507b5b3c77
   vehicle/jw_interface:
     type: git
-    url: https://github.com/tier4/jw_interface
-    version: tier4/universe
-  # param
-  param/autoware_individual_params:
+    url: git@github.com:tier4/jw_interface.git
+    version: dad27797e474539a85baf7fc1c0542e3124b1af0
+  vehicle/logiee_vehicle_launch:
     type: git
-    url: https://github.com/autowarefoundation/autoware_individual_params.git
-    version: main
+    url: https://github.com/T4-FY23-AW-Training-Team1/logiee_vehicle_launch.git
+    version: f0bb7c3606c51c978b0743f4ef90172246beb20b
