@@ -25,8 +25,8 @@ repositories:
     version: fbf9607a339408e0cf39bc03f3ad77ea0557247f
   param/autoware_individual_params:
     type: git
-    url: https://github.com/T4-FY23-AW-Training-Team1/autoware_individual_params
-    version: main
+    url: https://github.com/autowarefoundation/autoware_individual_params.git
+    version: 85d5b5c1fbacf4efa3ea6da96bbdb253b5f9ef0c
   sensor_component/external/sensor_component_description:
     type: git
     url: https://github.com/tier4/sensor_component_description.git
