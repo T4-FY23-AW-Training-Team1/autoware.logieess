@@ -10,7 +10,7 @@ repositories:
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: main
+    version: e91c5f7506ce417eff1e1f86fc8464e0852486a5
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
@@ -21,8 +21,8 @@ repositories:
     version: e1795354161ed54d66659366262578863bd2b862
   launcher/autoware_launch:
     type: git
-    url: https://github.com/autowarefoundation/autoware_launch.git
-    version: 85bbac32199e4c0f9888d27f3dbc055ba9edee93
+    url: https://github.com/T4-FY23-AW-Training-Team1/autoware_launch.logieess.git
+    version: main
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -70,11 +70,11 @@ repositories:
   universe/external/tier4_ad_api_adaptor:
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
-    version: tier4/universe
+    version: 65fba623366ec3ce214587181a45eec3cbecc55c
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: tier4/universe
+    version: f952fbc34a146b6db711652fed995bf0fa062586
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
