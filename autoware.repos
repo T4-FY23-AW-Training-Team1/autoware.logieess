@@ -6,23 +6,23 @@ repositories:
   core/autoware_adapi_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_adapi_msgs.git
-    version: cf310bd038673b6cbef3ae3b61dfe607212de419
+    version: bc9f86540acb8c0e14d02d8e6e530ebcff4acf26
   core/autoware_common:
     type: git
     url: https://github.com/autowarefoundation/autoware_common.git
-    version: 7455ebc5364d8c57f364227ef0dc100aaee48409
+    version: main
   core/autoware_msgs:
     type: git
     url: https://github.com/autowarefoundation/autoware_msgs.git
-    version: 75e63132ee1f1f1303ba2abd735f5415f75d1cc5
+    version: cdacab8c35bdeee112a0ba4922bf2c346ed285c2
   core/external/autoware_auto_msgs:
     type: git
     url: https://github.com/tier4/autoware_auto_msgs.git
-    version: f6642370c6f4f42a5dc0b6c1fc4a21396d4dc34c
+    version: e1795354161ed54d66659366262578863bd2b862
   launcher/autoware_launch:
     type: git
     url: https://github.com/autowarefoundation/autoware_launch.git
-    version: fbf9607a339408e0cf39bc03f3ad77ea0557247f
+    version: 85bbac32199e4c0f9888d27f3dbc055ba9edee93
   param/autoware_individual_params:
     type: git
     url: https://github.com/autowarefoundation/autoware_individual_params.git
@@ -46,11 +46,11 @@ repositories:
   sensor_kit/logiee_sensor_kit_launch:
     type: git
     url: https://github.com/T4-FY23-AW-Training-Team1/logiee_sensor_kit_launch.git
-    version: a4c4fbeeff9082e0cea8b63e1c4b11fcec200db7
+    version: feat/calibration
   universe/autoware.universe:
     type: git
-    url: https://github.com/autowarefoundation/autoware.universe.git
-    version: dbf98762ec0ec48b7cb6f44de0d89355808a897f
+    url: git@github.com:T4-FY23-AW-Training-Team1/autoware.universe.git
+    version: chore/upstream
   universe/external/morai_msgs:
     type: git
     url: https://github.com/MORAI-Autonomous/MORAI-ROS2_morai_msgs.git
@@ -70,11 +70,11 @@ repositories:
   universe/external/tier4_ad_api_adaptor:
     type: git
     url: https://github.com/tier4/tier4_ad_api_adaptor.git
-    version: 852c76520b53683d688dda8183ed3fa8c1eca6ca
+    version: tier4/universe
   universe/external/tier4_autoware_msgs:
     type: git
     url: https://github.com/tier4/tier4_autoware_msgs.git
-    version: f0688c19719a4b0d4e17e72e3034628d3d5ccb40
+    version: tier4/universe
   vehicle/external/pacmod_interface:
     type: git
     url: https://github.com/tier4/pacmod_interface.git
